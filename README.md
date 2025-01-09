@@ -327,16 +327,6 @@ These objectives guide the project to comprehensively analyze gender bias, predi
 
 ---
 
-
-
-## Deliverables
-1. **Report**:
-   - Detailed PDF summarizing statistical tests, models, and visualizations.
-2. **Code**:
-   - Python scripts for data collection, preprocessing, analysis, and modeling.
-
----
-
 ## Conclusion
 This project reveals subtle gender biases in ratings and highlights key predictors of teaching effectiveness. The results can guide educators and institutions toward fairer evaluation practices and improved teaching strategies.
 
