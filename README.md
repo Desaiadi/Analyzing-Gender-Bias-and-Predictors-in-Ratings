@@ -118,6 +118,7 @@ Each row corresponds to a professor and contains 20 columns representing raw tag
    - **Why**: Ensures reproducibility of results, allowing consistent splits in train-test datasets and bootstrapping processes.
    - **Find**: Reproducibility helped maintain computational integrity throughout the project.
 
+![Data Visualization](Images/Visualization_0_Preprocessing.png)
 ---
 
 ### Impact of Preprocessing
@@ -199,7 +200,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Significance**: Female professors exhibit significantly higher rating variance than male professors (p < 0.005).
 - **Conclusion**: Female professors' ratings show greater dispersion, indicating polarized perceptions of their performance.
 
-![Variance Ratings Placeholder](path/to/your/image2.png)
+![Variance Ratings Placeholder](Images/Visualization_2.png)
 
 ---
 
@@ -210,7 +211,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Significance**: The difference is statistically significant, but the effect size is very small.
 - **Conclusion**: Male professors receive slightly higher ratings, but the difference is negligible in practical terms.
 
-![Effect Size Placeholder](path/to/your/image3.png)
+![Effect Size Placeholder](Images/Visualization_3.png)
 
 ---
 
@@ -224,7 +225,7 @@ With this dataset in hand, the project aims to answer the following questions:
   - "Accessible" (p ≈ 4.27e-03)  
 - **Conclusion**: Only "Hilarious," "Amazing Lectures," and "Caring" remained significant after Bonferroni correction, highlighting robust gender differences in these tags.
 
-![Gender Tags Placeholder](path/to/your/image4.png)
+![Gender Tags Placeholder](Images/Visualization_4.png)
 
 ---
 
@@ -235,7 +236,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Significance**: Welch’s t-test shows no significant difference (p ≈ 0.9432).
 - **Conclusion**: There is no meaningful gender-based difference in perceived difficulty.
 
-![Difficulty Ratings Placeholder](path/to/your/image5.png)
+![Difficulty Ratings Placeholder](Images/Visualization_5.png)
 
 ---
 
@@ -245,7 +246,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Cohen’s d**: ≈ 0.00105  
 - **Conclusion**: The effect size is negligible, with no statistically or practically significant gender difference in difficulty ratings.
 
-![Difficulty Effect Size Placeholder](path/to/your/image6.png)
+![Difficulty Effect Size Placeholder](Images/Visualization_6.png)
 
 ---
 
@@ -256,7 +257,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Most Influential Predictor**: AvgDifficulty (negative correlation with AvgRating).
 - **Conclusion**: Higher difficulty ratings reduce average ratings. The model effectively explains 47.69% of variance in AvgRating.
 
-![Numerical Model Placeholder](path/to/your/image7.png)
+![Numerical Model Placeholder](Images/Visualization_7.png)
 
 ---
 
@@ -267,7 +268,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Most Influential Predictor**: "Tough Grader" (negative correlation with AvgRating).
 - **Conclusion**: Tags provide richer insights than numerical predictors, explaining 71.86% of variance in AvgRating.
 
-![Tag Model Placeholder](path/to/your/image8.png)
+![Tag Model Placeholder](Images/Visualization_8.png)
 
 ---
 
@@ -278,7 +279,7 @@ With this dataset in hand, the project aims to answer the following questions:
 - **Most Influential Predictor**: "Tough Grader" (positive correlation with AvgDifficulty).
 - **Conclusion**: Tags explain 54.07% of variance in AvgDifficulty, with "Tough Grader" strongly influencing perceptions of difficulty.
 
-![Difficulty Model Placeholder](path/to/your/image9.png)
+![Difficulty Model Placeholder](Images/Visualization_9.png)
 
 ---
 
@@ -291,17 +292,17 @@ With this dataset in hand, the project aims to answer the following questions:
   - "Good Feedback" (positive effect)  
 - **Conclusion**: Logistic Regression effectively predicts pepper badges, revealing the importance of lecture quality and feedback in influencing this outcome.
 
-![Pepper Prediction Placeholder](path/to/your/image10.png)
+![Pepper Prediction Placeholder](Images/Visualization_10.png)
 
 ---
 
-### Q11: Insights from Qualitative Data (Extra Credit)
+### 11: Insights from Qualitative Data 
 - **Findings**:
   - Aerospace Engineering: High AvgDifficulty (≈ 5.0), Low AvgRating (≈ 1.8).
   - Office Technology: High AvgRating (≈ 5.0), Low AvgDifficulty.
 - **Conclusion**: Contextual attributes like academic discipline significantly shape student perceptions, emphasizing the importance of qualitative data for deeper insights.
 
-![Qualitative Data Insights Placeholder](path/to/your/image11.png)
+![Qualitative Data Insights Placeholder](Images/Visualization_11.png)
 
 These objectives guide the project to comprehensively analyze gender bias, predictive factors, and other insights from the dataset, ensuring statistically robust results and actionable findings.
 ---
