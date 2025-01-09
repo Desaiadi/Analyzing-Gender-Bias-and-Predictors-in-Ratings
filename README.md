@@ -1,7 +1,7 @@
 # Teaching Perceptions Unveiled: Analyzing Gender Bias and Predictors in Professor Ratings
 
 ## Project Overview
-This project investigates gender bias in professor ratings and identifies key predictors of teaching effectiveness using data from RateMyProfessor.com (RMP). We analyze disparities in ratings, examine descriptive tags, and build predictive models to uncover patterns in evaluations. The findings aim to improve fairness in academia and provide actionable insights for educators and institutions.
+This project investigates gender bias in professor ratings and identifies key predictors of teaching effectiveness using data from RateMyProfessor.com (RMP). I analyzed disparities in ratings, examined descriptive tags, and built predictive models to uncover patterns in evaluations. The findings aim to improve fairness in academia and provide actionable insights for educators and institutions.
 
 ---
 
